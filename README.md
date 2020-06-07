@@ -1,16 +1,11 @@
 ## Motivation:
+This repository was originally a copy of Stripe's interview repo. 
 
-At Stripe, our interview process has some interviews where you write
-code, typically on your laptop.
-
-We've noticed that more often than not, we've had to spend a significant
-portion of the interview helping candidates setup a maven-based Java
-environment on their personal laptops.
-
-We've created a (rather ad-hoc) maven project to help candidates
-determine if their laptops were setup to write Java, so interviews can
-be about evaluating the candidate, and not the way their environment is
-setup.
+However, it's evolved over time with me trying to learn and practice different things such as:
+* Using SparkJava framework for creating controllers
+* Using Google's Guice framework for dependency injection
+* Using Google's Gson for easy serialize/de-serialize Java objects.
+* Solutions to some of coding challenges on Hackerrank, LeetCode, etc... (_Please note, it's a work in progress and not all my solutions are perfect just yet :)_ )
 
 # Getting Ready
 
@@ -34,21 +29,6 @@ We've added them to help alleviate two main problems that may be seen
 after maven is setup:
 - Maven works correctly with third-party dependencies
 - Maven's classpath is setup correctly
-
-## I prefer Gradle/Pants/Ivy/Makefiles/Bespoke Bash Scripts, do I need to use this?
-
-If you know prefer different configuration files, that's awesome.
-Some interview questions may ask to implement something from nothing,
-and some may want to watch you interact with a pre-existing codebase.
-For the former, it doesn't matter what you use, as long as you're able
-to get things setup quickly.
-
-Concerning the latter: Maven tends to be the most common format Java
-libraries are distributed as.
-Because of that, all pre-existing codebases we use in our interviews use
-maven.
-We aren't really specifically interested in how you write Maven project
-files, but want you to quickly get them up and running.
 
 ## Useful References:
 - [Installing Maven](https://maven.apache.org/install.html)

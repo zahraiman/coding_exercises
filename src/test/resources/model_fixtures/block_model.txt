@@ -1,0 +1,4 @@
+["CHARGE: card_country=US&currency=USD&amount=150&ip_country=CA","ALLOW:amount > 100"]
+["CHARGE: card_country=US&currency=USD&amount=150&ip_country=CA","ALLOW:amount<100","BLOCK:card_country != ip_country AND amount > 100"]
+["CHARGE: card_country=US&currency=USD&amount=150&ip_country=CA","BLOCK:amount > 100"]
+["CHARGE: card_country=US&currency=USD&amount=150&ip_country=CA","ALLOW:amount<200","BLOCK:card_country != ip_country AND amount > 100"]

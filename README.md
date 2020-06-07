@@ -1,4 +1,4 @@
-## Motivation:
+# Motivation:
 This repository was originally a copy of Stripe's interview repo. 
 
 However, it's evolved over time with me trying to learn and practice different things such as:
